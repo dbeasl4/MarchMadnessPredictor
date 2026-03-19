@@ -49,4 +49,4 @@ class TorvikSpider(scrapy.Spider):
                     'AdjDE': row.css('td:nth-child(5)::text').get(),
                 }
         
-        await page.close()
+        await page.close()S
